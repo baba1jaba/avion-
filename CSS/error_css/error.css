@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../FONTS/font/Satoshi-Regular.ttf");
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../../FONTS/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F9F9F9;
+  text-align: center;
+}
+.error-page h1 {
+  font-family: "Clash Display";
+  font-size: 100px;
+  font-weight: 700;
+  color: #2A254B;
+  margin: 0;
+}
+.error-page p {
+  font-family: "Satoshi";
+  font-size: 20px;
+  font-weight: 400;
+  color: #2A254B;
+  margin: 10px 0;
+}
+.error-page .subtext {
+  font-size: 16px;
+  color: #2A254B;
+}/*# sourceMappingURL=error.css.map */
